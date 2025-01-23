@@ -10,3 +10,15 @@ function duahau() {
 function trasua() {
   window.location.href = "payment4.html";
 }
+function xucxich() {
+  window.location.href = "payforsausage";
+}
+function changa() {
+  window.location.href = "payforchickenleg";
+}
+function banhtrangtrung() {
+  window.location.href = "payforbanhtrangtrung";
+}
+function banhtrangtron() {
+  window.location.href = "payforbanhtrangtron";
+}
