@@ -56,6 +56,12 @@ a {
   height: 900px;
   margin-top: 80px;
 } 
+.body2 {
+  float: left;
+  width: 100%;
+  height: 800px;
+  margin-top: 80px;
+}
 .event {
   width: 100%;
   height: 500px;
@@ -687,8 +693,7 @@ a {
     float: left;
     width: 100%;
     height: 250px;
-    margin-top: 60px;
-
+    margin-top: 2px;
   }
   .contact {
     float: left;
