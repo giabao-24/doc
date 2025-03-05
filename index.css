@@ -359,7 +359,7 @@ a {
   margin-left: 60px;
   color: white;
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:1400px){
   body {
     padding: 0;
     margin: 0;
@@ -416,6 +416,12 @@ a {
     float: left;
     width: 100%;
     height: 900px;
+    margin-top: 80px;
+  } 
+  .body2 {
+    float: left;
+    width: 100%;
+    height: 800px;
     margin-top: 80px;
   } 
   .event {
@@ -681,7 +687,8 @@ a {
     float: left;
     width: 100%;
     height: 250px;
-    background-color: black;
+    margin-top: 60px;
+
   }
   .contact {
     float: left;
@@ -693,7 +700,7 @@ a {
   .maps {
     float: left;
     width: 10%;
-    height: 100%;
+    height: 40%;
   }
   .report {
     float: left;
