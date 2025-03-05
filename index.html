@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DỐC</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <div id="dautrang"></div>
+  <div class="header">
+    <div class="headerleft">
+      <div class="logoheader"></div>
+      <div class="search"><input type="text" id="searchfor" name="searchfor" placeholder="Tìm kiếm"></div>
+    </div>
+    <div class="headerright">
+      <a href="#" style="color: yellow;">Trang Chủ</a>
+      <a href="gioithieu.html" >Giới Thiệu</a>
+      <a href="#">Sản Phẩm</a>
+      <a href="#">Liên hệ</a>
+      <a href="giohang.html" style="margin-right: -2px;">Giỏ Hàng</a>
+    </div>
+  </div>
+  <div class="body">
+  <div class="event" title="Sự kiện giảm giá 8/3"></div>
+  <div class="productdrink">
+    <div class="product1">
+      <div class="img1"></div>
+      <div class="text">
+        <p>Trà Đào</p>
+        <button onclick="tradao()">$15000đ <i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+    </div>
+    <div class="product1">
+      <div class="img2"></div>
+      <div class="text">
+        <p>Sinh Tố Bơ </p>
+        <button onclick="sinhtobo()">$15000đ <i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+    </div>
+  
+    <div class="product1">
+      <div class="img3"></div>
+      <div class="text">
+        <p>Nước Ép Dưa Hấu</p>
+        <button onclick="duahau()">$15000đ <i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+    </div>
+  
+   <div class="product1">
+      <div class="img4"></div>
+      <div class="text">
+        <p>Trà Sữa Truyền Thống</p>
+        <button onclick="trasua()">$15000đ <i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="body2">
+  <div class="productfood">
+    <div class="food1">
+   <div class="xucxich"></div>
+   <div class="infor">
+    <div class="cost">Xúc Xích Chiên</div>
+    <div class="pay"><button onclick="xucxich()">13000đ<i class="fa-solid fa-cart-plus"></i></button></div>
+   </div>
+    </div>
+    
+    <div class="food1">
+      <div class="changa"></div>
+      <div class="infor">
+        <div class="cost">Chân Gà Nướng</div>
+        <div class="pay"><button onclick="changa()">25000đ  <i class="fa-solid fa-cart-plus"></i></button></button></div>
+      </div>
+      </div>
+
+      <div class="food1">
+        <div class="banhtrangtrung"></div>
+        <div class="infor">
+          <div class="cost">Bánh Tráng Trứng</div>
+          <div class="pay"><button onclick="banhtrangtrung()">17000đ <i class="fa-solid fa-cart-plus"></i></button></button></div>
+        </div>
+        </div>
+      
+        <div class="food1">
+          <div class="banhtrangtron"></div>
+          <div class="infor">
+            <div class="cost">Bánh Tráng Trộn</div>
+            <div class="pay"><button onclick="banhtrangtron()">16000đ <i class="fa-solid fa-cart-plus"></i></button></button></div>
+          </div>
+          </div>
+       
+          <div class="food2">
+            <div class="mitron"></div>
+            <div class="infor">
+             <div class="cost">Mì Trộn</div>
+             <div class="pay"><button onclick="mitron()">15000đ <i class="fa-solid fa-cart-plus"></i></button></div>
+            </div>
+             </div>   
+ 
+           <div class="food2">
+            <div class="bapchienbo"></div>
+            <div class="infor">
+             <div class="cost">Bắp Chiên Bơ</div>
+             <div class="pay"><button onclick="bapchienbo()">13000đ <i class="fa-solid fa-cart-plus"></i></button></div>
+            </div>
+              </div>   
+
+          <div class="food2">
+          <div class="micay"></div>
+          <div class="infor">
+           <div class="cost">Mì Cay Hàn Quốc</div>
+           <div class="pay"><button onclick="micay()">30000đ <i class="fa-solid fa-cart-plus"></i></button></div>
+            </div>
+            </div>     
+            
+            <div class="food2">
+              <div class="bone"></div>
+              <div class="infor">
+               <div class="cost">Bò Né</div>
+               <div class="pay"><button onclick="bone()">25000đ <i class="fa-solid fa-cart-plus"></i></button></div>
+                </div>
+                </div>                 
+  </div>
+
+</div>
+
+
+
+<div class="footer">
+  <div class="contact">
+    <p><i class="fa-solid fa-phone"></i>0988867241</p>
+    <p ><i class="fa-solid fa-square-envelope"></i>longhoang2021@gmail.com</p>
+    <a href="https://www.facebook.com/profile.php?id=100076204484589"><i class="fa-brands fa-facebook"></i>Long Hoàng</a><br>
+    <p><i class="fa-solid fa-up-long"></i> <a href="#dautrang">Lên Đầu Trang</a></p>
+  </div>
+  <div class="report">
+    <p>Đánh giá và Góp ý</p>
+    <input type="text" id="report" name="report" placeholder="Nhập nhận xét">
+    <button type="sumbit" id="SumbitReport"><i class="fa-regular fa-paper-plane"></i>Gửi đi</button>
+    <p id="ResultReport"></p>
+  </div>
+ <div class="address">
+  <div class="paddress">
+  <p>Địa chỉ: Thôn 2, P.Phong Hải, TX.Phong Điền, TP. Huế </p>
+</div>
+ <div class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2911.5874281501237!2d107.47272644028801!3d16.657271110856126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141050004294723%3A0xee916a620dad8d8f!2zQ2FmZSAtIFRyw6AgU-G7r2EgROG7kWM!5e1!3m2!1svi!2s!4v1737024001153!5m2!1svi!2s"  style="border:0; border-radius: 10px 10px 10px 10px;" ></iframe></div>
+</div>
+</div>
+
+<script src="index.js" ></script>
+</body>
+</html>

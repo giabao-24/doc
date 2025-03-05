@@ -1,0 +1,1103 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  pointer-events: all;
+  background-color: rgba(243, 231, 211, 0.548);
+}
+.header {
+  float: left;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+}
+.headerleft {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.search {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+input {
+  width: 70%;
+  height: 30px;
+  border-radius: 4px 4px 4px 4px;
+  margin: 20px 10px 10px 15px;
+  border: none;
+}
+.headerright {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.logoheader {
+  float: left;
+  width: 30%;
+  height: 100%;
+  background-image: url('logodoc.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-right: 20px;
+}
+.body {
+  float: left;
+  width: 100%;
+  height: 900px;
+  margin-top: 80px;
+} 
+.event {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: chuyenhuong;
+  background-image: url('womanday83.jpg');
+  animation-duration: 1.4s;
+  display: block;
+}
+@keyframes chuyenhuong {
+  from {
+    transform: translateY(-30%);
+    transform: scale(90%);
+  }
+  to {
+    transform: translateY(2%);
+    transition: all 3s;
+  }
+}
+.productdrink {
+  float: left;
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+.product1 {
+  width: 23%;
+  height: 100%;
+  float: left;
+  background-color: white;
+  margin-left: 1.5%;
+}
+.productfood {
+  width: 100%;
+  float: left;
+  height: 350px;
+}
+.food1 {
+  width: 23%;
+  margin-left: 1.5%;
+  height: 100%;
+  background-color: white;
+  float: left;
+}
+.food2 {
+  width: 23%;
+  margin-left: 1.5%;
+  height: 100%;
+  background-color: white;
+  float: left;
+  margin-top: 20px;
+}
+.xucxich {
+  width: 100%;
+  height: 80%;
+  background-image: url('sausagegrill.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 5px 5px;
+}
+.xucxich:hover {
+  background-image: url('grillsausagehover.jpg');
+  transition: all 0.5s ease;
+}
+.changa {
+  width: 100%;
+  height: 80%;
+  background-image: url('changarutxuongreal.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 5px 5px;
+}
+.changa:hover {
+  transition: all 0.5s ease;
+  background-image: url('changarutxuonghover.jpg');
+}
+.mitron {
+  width: 100%;
+  height: 80%;
+  background-image: url('mitron.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 5px 5px;
+}
+.mitron:hover {
+  transition: all 0.5s ease;
+  background-image: url('mitronhover.jpg');
+}
+.banhtrangtrung {
+  width: 100%;
+  height: 80%;
+  background-image: url('banhtrangtrung.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 5px 5px;
+}
+.banhtrangtrung:hover {
+  transition: all 0.5s ease;
+  background-image: url('banhtrangtrunghover.jpg');
+}
+.banhtrangtron {
+  width: 100%;
+  height: 80%;
+  background-image: url('banhtrangtron.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 5px 5px;
+}
+.banhtrangtron:hover {
+  transition: all 0.5s ease;
+  background-image: url('banhtrangtronhover.png');
+}
+.bapchienbo {
+  width: 100%;
+  height: 80%;
+  background-image: url('bapchienbo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 5px 5px;
+}
+.bapchienbo:hover {
+  transition: all 0.5s ease;
+  background-image: url('bapchienbohover.jpg');
+}
+.micay {
+  width: 100%;
+  height: 80%;
+  background-image: url('hotnoodlekorean.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 5px 5px;
+}
+.micay:hover {
+  transition: all 0.5s ease;
+  background-image: url('micayhover.jpg');
+}
+.bone {
+  width: 100%;
+  height: 80%;
+  background-image: url('bonechover.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 5px 5px;
+}
+.bone:hover {
+  transition: all 0.5s ease;
+  background-image: url('bone.jpg');
+}
+.infor {
+  width: 100%;
+  height: 15%;
+  margin-top: 2%;
+}
+.cost {
+  float: left;
+  width: 40%;
+  height: 100%;
+  color: red;
+}
+.cost p{
+  font-size: 18px;
+  line-height: 0.7;
+}
+.pay {
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+.pay button {
+  width: 90%;
+  height: 80%;
+  font-size: 18px;
+  background-color: aliceblue;
+  border-radius: 4px 4px 4px 4px;
+  cursor: pointer;
+}
+.pay button:hover {
+  background-color: black;
+  color: white;
+  transition: all ease 0.5s;
+  transform: scale(1.1);
+}
+.img1 {
+  background-image: url('product1.jpg');
+  width: 100%;
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1:hover {
+  background-image: url('tradaohover.jpg');
+  transition: all ease 0.5s;
+}
+.img2 {
+  width: 100%;
+  height: 75%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('productsinhtobo.jpg');
+}
+.img2:hover {
+  background-image: url('sinhtobohover.jpg');
+  transition: all ease 0.5s;
+}
+.img3 {
+  width: 100%;
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('nuocepduahau.jpg');
+}
+.img3:hover {
+  background-image: url('nuocepduahauhover.jpg');
+  transition: all ease 0.5s;
+}
+.img4 {
+  width: 100%;
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('trasuatruyenthong.jpg');
+}
+.img4:hover {
+  background-image: url('trasuatruyenthonghover.jpg');
+  transition: all ease 0.5s;
+}
+.text {
+  float: left;
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 0.7;
+}
+.text button {
+  width: 60%;
+  margin-left: 5%;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+}
+.text button:hover {
+  background-color: black;
+  color: white;
+}
+.footer {
+  float: left;
+  width: 100%;
+  height: 250px;
+  background-color: black;
+}
+.contact {
+  float: left;
+  width: 30%;
+  height: 100%;
+  font-size: 22px;
+  color: white;
+  margin-left: 30px;
+}
+.maps {
+  float: left;
+  width: 100%;
+  height: 60%;
+}
+.report {
+  float: left;
+  width: 30%;
+  height: 100%;
+  margin-left: 15px;
+  color: white;
+  text-align: center;
+}
+.report input {
+  width: 80%;
+  height: 40px;
+  margin-top: -1px;
+}
+.report button {
+  width: 30%;
+  height: 40px;
+  margin-top: 10px;
+}
+.address {
+  float: left;
+  width: 30%;
+  height: 100%;
+  margin-left: 60px;
+  color: white;
+}
+@media screen and (max-width:1024px){
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    pointer-events: all;
+    background-color: rgba(243, 231, 211, 0.548);
+  }
+  .header {
+    float: left;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+  }
+  .headerleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  .search {
+    float: left;
+    width: 70%;
+    height: 100%;
+  }
+  input {
+    width: 70%;
+    height: 30px;
+    border-radius: 4px 4px 4px 4px;
+    margin: 20px 10px 10px 15px;
+    border: none;
+  }
+  .headerright {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  .logoheader {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-image: url('logodoc.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  .body {
+    float: left;
+    width: 100%;
+    height: 900px;
+    margin-top: 80px;
+  } 
+  .event {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: chuyenhuong;
+    background-image: url('womanday83.jpg');
+    animation-duration: 1.4s;
+    display: block;
+  }
+  @keyframes chuyenhuong {
+    from {
+      transform: translateY(-30%);
+      transform: scale(90%);
+    }
+    to {
+      transform: translateY(2%);
+      transition: all 3s;
+    }
+  }
+  .productdrink {
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+  .product1 {
+    width: 23%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    margin-left: 1.5%;
+  }
+  .productfood {
+    width: 100%;
+    float: left;
+    height: 350px;
+  }
+  .food1 {
+    width: 23%;
+    margin-left: 1.5%;
+    height: 100%;
+    background-color: white;
+    float: left;
+  }
+  .food2 {
+    width: 23%;
+    margin-left: 1.5%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    margin-top: 20px;
+  }
+  .xucxich {
+    width: 100%;
+    height: 80%;
+    background-image: url('sausagegrill.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .xucxich:hover {
+    background-image: url('grillsausagehover.jpg');
+    transition: all 0.5s ease;
+  }
+  .changa {
+    width: 100%;
+    height: 80%;
+    background-image: url('changarutxuongreal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .changa:hover {
+    transition: all 0.5s ease;
+    background-image: url('changarutxuonghover.jpg');
+  }
+  .mitron {
+    width: 100%;
+    height: 80%;
+    background-image: url('mitron.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .mitron:hover {
+    transition: all 0.5s ease;
+    background-image: url('mitronhover.jpg');
+  }
+  .banhtrangtrung {
+    width: 100%;
+    height: 80%;
+    background-image: url('banhtrangtrung.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .banhtrangtrung:hover {
+    transition: all 0.5s ease;
+    background-image: url('banhtrangtrunghover.jpg');
+  }
+  .banhtrangtron {
+    width: 100%;
+    height: 80%;
+    background-image: url('banhtrangtron.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .banhtrangtron:hover {
+    transition: all 0.5s ease;
+    background-image: url('banhtrangtronhover.png');
+  }
+  .bapchienbo {
+    width: 100%;
+    height: 80%;
+    background-image: url('bapchienbo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .bapchienbo:hover {
+    transition: all 0.5s ease;
+    background-image: url('bapchienbohover.jpg');
+  }
+  .micay {
+    width: 100%;
+    height: 80%;
+    background-image: url('hotnoodlekorean.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .micay:hover {
+    transition: all 0.5s ease;
+    background-image: url('micayhover.jpg');
+  }
+  .bone {
+    width: 100%;
+    height: 80%;
+    background-image: url('bonechover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .bone:hover {
+    transition: all 0.5s ease;
+    background-image: url('bone.jpg');
+  }
+  .infor {
+    width: 100%;
+    height: 15%;
+    margin-top: 2%;
+  }
+  .cost {
+    float: left;
+    width: 40%;
+    height: 100%;
+    color: red;
+  }
+  .cost p{
+    font-size: 18px;
+    line-height: 0.7;
+  }
+  .pay {
+    float: left;
+    width: 60%;
+    height: 100%;
+  }
+  .pay button {
+    width: 90%;
+    height: 80%;
+    font-size: 18px;
+    background-color: aliceblue;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+  }
+  .pay button:hover {
+    background-color: black;
+    color: white;
+    transition: all ease 0.5s;
+    transform: scale(1.1);
+  }
+  .img1 {
+    background-image: url('product1.jpg');
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img1:hover {
+    background-image: url('tradaohover.jpg');
+    transition: all ease 0.5s;
+  }
+  .img2 {
+    width: 100%;
+    height: 75%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('productsinhtobo.jpg');
+  }
+  .img2:hover {
+    background-image: url('sinhtobohover.jpg');
+    transition: all ease 0.5s;
+  }
+  .img3 {
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('nuocepduahau.jpg');
+  }
+  .img3:hover {
+    background-image: url('nuocepduahauhover.jpg');
+    transition: all ease 0.5s;
+  }
+  .img4 {
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('trasuatruyenthong.jpg');
+  }
+  .img4:hover {
+    background-image: url('trasuatruyenthonghover.jpg');
+    transition: all ease 0.5s;
+  }
+  .text {
+    float: left;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 0.7;
+  }
+  .text button {
+    width: 60%;
+    margin-left: 5%;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .text button:hover {
+    background-color: black;
+    color: white;
+  }
+  .footer {
+    float: left;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+  }
+  .contact {
+    float: left;
+    width: 30%;
+    height: 100%;
+    font-size: 22px;
+    color: white;
+  }
+  .maps {
+    float: left;
+    width: 10%;
+    height: 100%;
+  }
+  .report {
+    float: left;
+    width: 30%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+  .report input {
+    width: 80%;
+    height: 40px;
+    margin-top: -1px;
+  }
+  .report button {
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .address {
+    float: left;
+    width: 30%;
+    height: 100%;
+    color: white;
+    margin-left: -3px;
+  }
+}
+@media screen and (max-width:480px){
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    pointer-events: all;
+    background-color: white;
+  }
+  .header {
+    float: left;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+  }
+  .headerleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  .search {
+    float: left;
+    width: 70%;
+    height: 100%;
+  }
+  input {
+    width: 70%;
+    height: 30px;
+    border-radius: 4px 4px 4px 4px;
+    margin: 20px 10px 10px 15px;
+    border: none;
+  }
+  .headerright {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  .logoheader {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-image: url('logodoc.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 1px;
+  }
+  .body {
+    float: left;
+    width: 100%;
+    height: 1200px;
+    margin-top: 1px;
+  } 
+  .event {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: chuyenhuong;
+    background-image: url('womanday83.jpg');
+    animation-duration: 1.4s;
+    display: block;
+  }
+  @keyframes chuyenhuong {
+    from {
+      transform: translateY(-30%);
+      transform: scale(90%);
+    }
+    to {
+      transform: translateY(2%);
+      transition: all 3s;
+    }
+  }
+  .productdrink {
+    float: left;
+    width: 100%;
+    height: 900px;
+    margin-top: 1px;
+  }
+  .product1 {
+    width: 48%;
+    height: 30%;
+    float: left;
+    background-color: white;
+    margin-left: 1%;
+    margin-top: 0%;
+  }
+  .img1 {
+    background-image: url('product1.jpg');
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img1:hover {
+    background-image: url('tradaohover.jpg');
+    transition: all ease 0.5s;
+  }
+  .img2 {
+    width: 100%;
+    height: 75%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('productsinhtobo.jpg');
+  }
+  .img2:hover {
+    background-image: url('sinhtobohover.jpg');
+    transition: all ease 0.5s;
+  }
+  .img3 {
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('nuocepduahau.jpg');
+  }
+  .img3:hover {
+    background-image: url('nuocepduahauhover.jpg');
+    transition: all ease 0.5s;
+  }
+  .img4 {
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('trasuatruyenthong.jpg');
+  }
+  .img4:hover {
+    background-image: url('trasuatruyenthonghover.jpg');
+    transition: all ease 0.5s;
+  }
+  .text {
+    float: left;
+    width: 100%;
+    height: 45%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 0.3;
+  }
+  .text button {
+    width: 60%;
+    margin-left: 2%;
+    height: 33px;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .text button:hover {
+    background-color: black;
+    color: white;
+  }
+  .productfood {
+    width: 100%;
+    float: left;
+    height: 350px;
+  }
+  .body2 {
+    float: left;
+    width: 100%;
+    height: 1500px;
+    margin-top: 1px;
+  }
+  .food1 {
+    width: 48%;
+    margin-left: 1.5%;
+    height: 100%;
+    background-color: white;
+    float: left;
+  }
+  .food2 {
+    width: 48%;
+    margin-left: 1.5%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    margin-top: 20px;
+  }
+  .xucxich {
+    width: 100%;
+    height: 80%;
+    background-image: url('sausagegrill.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .xucxich:hover {
+    background-image: url('grillsausagehover.jpg');
+    transition: all 0.5s ease;
+  }
+  .changa {
+    width: 100%;
+    height: 80%;
+    background-image: url('changarutxuongreal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .changa:hover {
+    transition: all 0.5s ease;
+    background-image: url('changarutxuonghover.jpg');
+  }
+  .mitron {
+    width: 100%;
+    height: 80%;
+    background-image: url('mitron.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .mitron:hover {
+    transition: all 0.5s ease;
+    background-image: url('mitronhover.jpg');
+  }
+  .banhtrangtrung {
+    width: 100%;
+    height: 80%;
+    background-image: url('banhtrangtrung.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .banhtrangtrung:hover {
+    transition: all 0.5s ease;
+    background-image: url('banhtrangtrunghover.jpg');
+  }
+  .banhtrangtron {
+    width: 100%;
+    height: 80%;
+    background-image: url('banhtrangtron.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .banhtrangtron:hover {
+    transition: all 0.5s ease;
+    background-image: url('banhtrangtronhover.png');
+  }
+  .bapchienbo {
+    width: 100%;
+    height: 80%;
+    background-image: url('bapchienbo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .bapchienbo:hover {
+    transition: all 0.5s ease;
+    background-image: url('bapchienbohover.jpg');
+  }
+  .micay {
+    width: 100%;
+    height: 80%;
+    background-image: url('hotnoodlekorean.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .micay:hover {
+    transition: all 0.5s ease;
+    background-image: url('micayhover.jpg');
+  }
+  .bone {
+    width: 100%;
+    height: 80%;
+    background-image: url('bonechover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .bone:hover {
+    transition: all 0.5s ease;
+    background-image: url('bone.jpg');
+  }
+  .infor {
+    width: 100%;
+    height: 15%;
+    margin-top: 2%;
+  }
+  .cost {
+    float: left;
+    width: 40%;
+    height: 100%;
+    color: red;
+  }
+  .cost p{
+    font-size: 12px;
+    line-height: 0.7;
+  }
+  .pay {
+    float: left;
+    width: 60%;
+    height: 100%;
+  }
+  .pay button {
+    width: 90%;
+    height: 80%;
+    font-size: 12px;
+    background-color: aliceblue;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+  }
+  .pay button:hover {
+    background-color: black;
+    color: white;
+    transition: all ease 0.5s;
+    transform: scale(1.1);
+  }
+  .footer {
+    float: left;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+  }
+  .contact {
+    float: left;
+    width: 30%;
+    height: 100%;
+    font-size: 10px;
+    color: white;
+    margin-left: 1px;
+  }
+  .contact a {
+    font-size: 12px;
+  }
+  .maps {
+    float: left;
+    width: 40%;
+    height: 60%;
+    margin-top: 2px;
+  }
+  .report {
+    float: left;
+    width: 35%;
+    height: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+  }
+  .report input {
+    width: 50%;
+    height: 20px;
+    margin-top: -1px;
+  }
+  .report input ::after {
+    width: 80%;
+  }
+  .report button {
+    width: 80%;
+    height: 20px;
+  }
+  .address {
+    float: left;
+    width: 34%;
+    height: 100%;
+    margin-left: -1px;
+    color: white;
+    font-size: 10px;
+  }
+}

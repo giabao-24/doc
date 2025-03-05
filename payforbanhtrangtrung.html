@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đặt Hàng Bánh Tráng Trứng</title>
+  <link rel="stylesheet" href="payforbanhtrangtrung.css">
+</head>
+<body>
+  <div class="body">
+    <h2>Đặt Hàng</h2>
+    <form action="/submit" method="post" onsubmit="return handleSubmit()">
+      <label for="name">Nhập Tên</label><br>
+      <input type="text" id="name" name="name" placeholder="Name" required><br>
+      <label for="phone">Nhập Số Điện Thoại</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="Phone" required><br>
+      <label for="address">Nhập Địa Chỉ</label><br>
+      <input type="text" id="address" name="address" placeholder="Address" required><br>
+      <label for="numberofbanhtrung">Số Lượng</label><br>
+      <input type="number" id="numberofbanhtrung" name="numberofbanhtrung" min="1" required><br>
+      <p style="color: red;">Thanh Toán <span id="sum">0</span>đ</p>
+      <button type="submit" style="width: 30%; height: 28px; background-color: red; border: none;">Đặt Hàng</button>
+    </form>
+  </div>
+  <script>
+    document.getElementById("numberofbanhtrung").oninput = function () {
+      const numberofbanhtrung = parseFloat(document.getElementById("numberofbanhtrung").value) || 0;
+      const sum = numberofbanhtrung * 17000;
+      document.getElementById("sum").innerText = sum.toLocaleString(); // Format with commas
+    };
+
+    function handleSubmit() {
+      alert('Đặt Hàng Thành Công');
+      return false; // Prevent form submission
+    }
+  </script>
+</body>
+</html>

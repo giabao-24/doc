@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đặt Hàng Chân Gà</title>
+  <link rel="stylesheet" href="payforchickenleg.css">
+</head>
+<body>
+  <div class="body">
+    <h2>Đặt Hàng</h2>
+    <form action="/sumbit" method="post">
+    <label for="name">Nhập Tên</label><br>
+    <input type="text" id="name" name="name" placeholder="Name"><br>
+    <label for="phone">Nhập Số Điện Thoại</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="Phone"><br>
+    <label for="adress">Nhập Địa Chỉ</label><br>
+    <input type="text" id="adress" name="adress" placeholder="Adress"><br>
+    <label for="numberofchickenleg">Số Lượng</label><br>
+    <input type="number" id="numberofchickenleg" name="numberofchickenleg" min="1"><br>
+    <p style="color: red;">Thanh Toán <span id="sum"></span>đ</p>
+    <button type="submit" style="width: 30%;height: 28px;background-color: red;border: none;" onclick="alert('Đặt Hàng Thành Công')">Đặt Hàng</button>
+  </form>
+  </div>
+  <script src="payforchickenleg.js"></script>
+</body>
+</html>
