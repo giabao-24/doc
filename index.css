@@ -8,19 +8,20 @@
     background-color: rgba(243, 231, 211, 0.548);
   }
   .header {
-    float: left;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 80px;
     position: fixed;
     background-color: rgb(0, 0, 0);
   }
   .headerleft {
-    float: left;
+    display: flex;
+    flex-direction: row;
     width: 50%;
     height: 100%;
   }
   .search {
-    float: left;
     width: 70%;
     height: 100%;
   }
@@ -32,12 +33,13 @@
     border: none;
   }
   .headerright {
-    float: left;
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .logoheader {
-    float: left;
     width: 30%;
     height: 100%;
     background-image: url('logodoc.jpg');
@@ -49,7 +51,7 @@
     text-decoration: none;
     color: white;
     font-size: 24px;
-    margin-right: 20px;
+    padding-top: 20px;
   }
   .body {
     float: left;
@@ -376,21 +378,23 @@
     background-color: white;
   }
   .header {
-    float: left;
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 80px;
+    height: 120px;
     position: fixed;
     background-color: rgb(0, 0, 0);
   }
   .headerleft {
     float: left;
-    width: 50%;
+    width: 40%;
     height: 100%;
   }
   .search {
     float: left;
     width: 70%;
     height: 100%;
+    display: none;
   }
   input {
     width: 70%;
@@ -400,13 +404,17 @@
     border: none;
   }
   .headerright {
-    float: left;
-    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 60%;
     height: 100%;
+    row-gap: 5px;
   }
   .logoheader {
     float: left;
-    width: 30%;
+    width: 100%;
     height: 100%;
     background-image: url('logodoc.jpg');
     background-position: center;
@@ -416,25 +424,26 @@
   a {
     text-decoration: none;
     color: white;
-    font-size: 14px;
-    margin-right: 1px;
+    font-size: 15px;
   }
   .body {
-    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 100%;
     height: 1200px;
-    margin-top: 1px;
   } 
   .event {
     width: 100%;
-    height: 500px;
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     animation-name: chuyenhuong;
     background-image: url('womanday83.jpg');
-    animation-duration: 1.4s;
-    display: block;
+    animation-duration: 1s;
+    margin-top: 14px;
+    display: flex;
   }
   @keyframes chuyenhuong {
     from {
@@ -447,18 +456,17 @@
     }
   }
   .productdrink {
-    float: left;
     width: 100%;
     height: 900px;
-    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
   }
   .product1 {
     width: 48%;
     height: 30%;
-    float: left;
     background-color: white;
-    margin-left: 1%;
-    margin-top: 0%;
   }
   .img1 {
     background-image: url('product1.jpg');
@@ -531,19 +539,22 @@
     width: 100%;
     float: left;
     height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .body2 {
-    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     height: 1500px;
-    margin-top: 1px;
+    margin-top: -200px;
   }
   .food1 {
     width: 48%;
-    margin-left: 1.5%;
     height: 100%;
     background-color: white;
-    float: left;
   }
   .food2 {
     width: 48%;
@@ -551,11 +562,10 @@
     height: 100%;
     background-color: white;
     float: left;
-    margin-top: 20px;
   }
   .xucxich {
     width: 100%;
-    height: 80%;
+    height: 60%;
     background-image: url('sausagegrill.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -568,7 +578,7 @@
   }
   .changa {
     width: 100%;
-    height: 80%;
+    height: 60%;
     background-image: url('changarutxuongreal.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -581,7 +591,7 @@
   }
   .mitron {
     width: 100%;
-    height: 80%;
+    height: 60%;
     background-image: url('mitron.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -594,7 +604,7 @@
   }
   .banhtrangtrung {
     width: 100%;
-    height: 80%;
+    height: 60%;
     background-image: url('banhtrangtrung.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -607,7 +617,7 @@
   }
   .banhtrangtron {
     width: 100%;
-    height: 80%;
+    height: 60%;
     background-image: url('banhtrangtron.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -620,7 +630,7 @@
   }
   .bapchienbo {
     width: 100%;
-    height: 80%;
+    height: 60%;
     background-image: url('bapchienbo.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -633,7 +643,7 @@
   }
   .micay {
     width: 100%;
-    height: 80%;
+    height: 60%;
     background-image: url('hotnoodlekorean.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -646,7 +656,7 @@
   }
   .bone {
     width: 100%;
-    height: 80%;
+    height: 60%;
     background-image: url('bonechover.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -669,7 +679,7 @@
     color: red;
   }
   .cost p{
-    font-size: 12px;
+    font-size: 10px;
     line-height: 0.7;
   }
   .pay {
