@@ -9,32 +9,21 @@
 <body>
     <div class="body">
         <h2>Đặt Hàng</h2>
-        <form action="/sumbit" method="post">
             <label for="name">Nhập Tên</label><br>
             <input type="text" id="name" name="name" placeholder="Name"><br>
             <label for="phone">Nhập Số Điện Thoại</label><br>
             <input type="tel" id="phone" name="phone" placeholder="Phone"><br>
             <label for="adress">Nhập Địa Chỉ</label><br>
-            <input type="text" id="adress" name="adress" placeholder="Adress"><br>
+            <input type="text" id="address" name="address" placeholder="Address"><br>
             <label for="numberofmicay">Số Lượng</label><br>
-            <input type="number" id="numberofmicay" name="numberofmicay" min="1"><br>
-            <p style="color: red;">Thanh Toán <span id="result"></span>đ</p>
-            <button type="submit" id="myButton" style="width: 30%;height: 28px;background-color: red;border: none;">Đặt Hàng</button>
-        </form>
+            <input type="number" id="numberofmicay" name="numberofmicay" min="1" placeholder="Number"><br>
+            <p style="color: red;">Thanh Toán <span id="result"></span></p>
+            <button onclick="order()" id="myButton" style="width: 30%;height: 28px;background-color: red;border: none;">Đặt Hàng</button>
     </div>
 
-    <div class="hienthi" style="display:none;" id="myCode">  <p>Đặt hàng thành công!</p>
-        </div>
+    <div class="hienthi" style="display:none;" id="myCode">  <p>Đặt hàng thành công!</p> </div>
+     <div class="hienthi" style="display:none;" id="myCode2">  <p>Đặt hàng không thành công -Vui lòng kiểm tra lại thông tin!</p> </div>
 
     <script src="micay.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $("#myButton").click(function(event) {
-                event.preventDefault(); // Ngăn form submit mặc định
-                $("#myCode").show(); 
-            });
-        });
-    </script>
 </body>
 </html>
